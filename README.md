@@ -216,6 +216,14 @@ VALUES
  
 -A. Pelo menos 2 com algum tipo de junção    
 ------------------------------------   
+Código que indentifica nome do produto e quantidade no estoque referente 
+
+SELECT    
+p.nome,   
+e.quantidade_estoque   
+FROM    
+produtos p    
+JOIN estoque e ON e.id_produto = p.id   
 
 -B. Pelo menos 1 com usando count() e group by()   
 ------------------------------------  
