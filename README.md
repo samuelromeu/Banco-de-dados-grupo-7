@@ -212,16 +212,16 @@ VALUES
 
 Atualiza o CPF de um dos funcionário
 
-UPDATE funcionários  
-SET CPF = 09876543210  
-WHERE ID = 1  
+UPDATE funcionários   
+SET CPF = 09876543210    
+WHERE ID = 1   
 
 # 6. Um comando SQL de exclusão de algum registro em uma tabela
 
-Deleta o nome de um dos funcionários
-
-SELECT * FROM funcionarios
-DELETE FROM funcionarios WHERE  nome ='Deiby'
+Deleta o nome de um dos funcionários   
+  
+SELECT * FROM funcionarios   
+DELETE FROM funcionarios WHERE  nome ='Deiby'  
 
 # 7. 5 SQLs de consulta 
  
@@ -229,34 +229,35 @@ DELETE FROM funcionarios WHERE  nome ='Deiby'
 ------------------------------------   
 Indentifica nome do produto e quantidade no estoque referente 
 
+SELECT     
+p.nome,    
+e.quantidade_estoque     
+FROM      
+produtos p      
+JOIN estoque e ON e.id_produto = p.id     
+
+Identifica o cliente e a cidade onde ele mora   
+
 SELECT    
-p.nome,   
-e.quantidade_estoque   
-FROM    
-produtos p    
-JOIN estoque e ON e.id_produto = p.id   
-
-Identifica o cliente e onde ele mora
-
-SELECT 
-	c.nome_completo AS "Nomes_clientes",
-	e.cidade AS "Cidades "
-FROM enderecos e
-	JOIN clientes c ON c.id = e.id_cliente 
+	c.nome_completo AS "Nomes_clientes",   
+	e.cidade AS "Cidades "    
+FROM  
+	enderecos e    
+	JOIN clientes c ON c.id = e.id_cliente   
 
 -B. Pelo menos 1 com usando count() e group by()   
 ------------------------------------  
 
-Indentifica a quantidade de pedidos que cada cliente fez no e-commerce
+Indentifica a quantidade de pedidos que cada cliente fez no e-commerce  
 
-SELECT 
-	c.nome_completo AS "Nomes_clientes",
-	COUNT (p.id) AS "Numero_pedidos"
-FROM 
-	clientes c
-	JOIN pedidos p ON p.id_cliente = c.id
-GROUP BY
-	c.nome_completo
+SELECT    
+	c.nome_completo AS "Nomes_clientes",   
+	COUNT (p.id) AS "Numero_pedidos"   
+FROM   
+	clientes c  
+	JOIN pedidos p ON p.id_cliente = c.id  
+GROUP BY  
+	c.nome_completo  
 
 -C. 1 SQL para construção de nota fiscal
 ------------------------------------  
