@@ -260,6 +260,17 @@ FROM
 GROUP BY  
 	c.nome_completo  
 
+Identifica o número de clientes por estado
+
+SELECT     
+	COUNT (c.nome_de_usuario) AS "Numero_de_clientes",    
+	e.UF AS "Estado"    
+FROM    
+	clientes c    
+	JOIN enderecos e ON c.id = e.id_cliente   
+GROUP BY      
+	e.UF    
+
 -C. 1 SQL para construção de nota fiscal
 ------------------------------------  
 
