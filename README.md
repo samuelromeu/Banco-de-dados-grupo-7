@@ -11,6 +11,8 @@ integrantes do grupo 7
 # 1.Diagrama ER (primeira versão) 
 ![fd821179-126e-4ca8-b8e4-ebbbcd9ca866](https://github.com/samuelromeu/Banco-de-dados-grupo-7/assets/162327648/209e3f59-10e5-48bf-881d-c24710aede37)
 
+# 2.Diagrama ER (depois da normalização) 
+
 # 3. SQL de criação das tabelas 
 
 CREATE TABLE funcionarios (  
@@ -201,3 +203,20 @@ VALUES
     ('500', '3', '3'),   
     ('150', '4', '4'),   
     ('250', '5', '5')    
+
+# 5. Um comando SQL de atualização em algum registro em uma tabela 
+
+# 6. Um comando SQL de exclusão de algum registro em uma tabela
+
+# 7. 5 SQLs de consulta 
+ 
+-A. Pelo menos 2 com algum tipo de junção    
+------------------------------------   
+
+-B. Pelo menos 1 com usando count() e group by()   
+------------------------------------  
+
+-C. 1 SQL para construção de nota fiscal   
+------------------------------------  
+
+------------------------------------ ------------------------------------   
