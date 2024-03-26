@@ -239,7 +239,19 @@ JOIN estoque e ON e.id_produto = p.id
 -B. Pelo menos 1 com usando count() e group by()   
 ------------------------------------  
 
--C. 1 SQL para construção de nota fiscal   
+-C. 1 SQL para construção de nota fiscal
 ------------------------------------  
 
+SELECT nf.id AS "Id_nota",  
+       c.nome_completo AS "Nome_Cliente",  
+       c.cpf AS "CPF",   
+       p.nome AS "Nome_Produto",    
+       pi.quantidade_produtos AS "Quantidade",   
+       pi.quantidade_produtos * p.valor_unitario AS "Valor_total"    
+FROM nota_fiscal nf    
+JOIN pedidos pd ON nf.id_pedido = pd.id   
+JOIN clientes c ON pd.id_cliente = c.id    
+JOIN pedido_item pi ON pd.id = pi.id_pedido    
+JOIN produtos p ON pi.id_produto = p.id   
+JOIN enderecos e ON c.id = e.id_cliente;   
  
