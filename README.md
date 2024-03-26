@@ -263,7 +263,8 @@ GROUP BY
 -C. 1 SQL para construção de nota fiscal
 ------------------------------------  
 
-SELECT nf.id AS "Id_nota",  
+SELECT      
+	nf.id AS "Id_nota",       
        c.nome_completo AS "Nome_Cliente",  
        c.cpf AS "CPF",   
        p.nome AS "Nome_Produto",    
@@ -273,6 +274,5 @@ FROM nota_fiscal nf
 JOIN pedidos pd ON nf.id_pedido = pd.id   
 JOIN clientes c ON pd.id_cliente = c.id    
 JOIN pedido_item pi ON pd.id = pi.id_pedido    
-JOIN produtos p ON pi.id_produto = p.id   
-JOIN enderecos e ON c.id = e.id_cliente;   
+JOIN produtos p ON pi.id_produto = p.id     
  
