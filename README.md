@@ -210,13 +210,24 @@ VALUES
 
 # 5. Um comando SQL de atualização em algum registro em uma tabela 
 
+Atualiza o CPF de um dos funcionário
+
+UPDATE funcionários  
+SET CPF = 09876543210  
+WHERE ID = 1  
+
 # 6. Um comando SQL de exclusão de algum registro em uma tabela
+
+Deleta o nome de um dos funcionários
+
+SELECT * FROM funcionarios
+DELETE FROM funcionarios WHERE  nome ='Deiby'
 
 # 7. 5 SQLs de consulta 
  
 -A. Pelo menos 2 com algum tipo de junção    
 ------------------------------------   
-Código que indentifica nome do produto e quantidade no estoque referente 
+Indentifica nome do produto e quantidade no estoque referente 
 
 SELECT    
 p.nome,   
@@ -231,4 +242,4 @@ JOIN estoque e ON e.id_produto = p.id
 -C. 1 SQL para construção de nota fiscal   
 ------------------------------------  
 
------------------------------------- ------------------------------------   
+ 
