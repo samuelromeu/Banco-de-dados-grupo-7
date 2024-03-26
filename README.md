@@ -212,10 +212,10 @@ VALUES
 
 Atualiza o CPF de um dos funcionário
 
-UPDATE funcionarios   
-SET CPF = 09876543210,
-atualizado_em = CURRENT_TIMESTAMP
-WHERE ID = 1   
+UPDATE funcionarios     
+SET CPF = 09876543210,   
+atualizado_em = CURRENT_TIMESTAMP   
+WHERE ID = 1     
 
 # 6. Um comando SQL de exclusão de algum registro em uma tabela
 
