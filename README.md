@@ -1,6 +1,6 @@
 # Banco-de-dados-grupo-7
-Trabalho final da disciplina Banco de Dados
-Opção 1: E-commerce tradicional
+Trabalho final da disciplina Banco de Dados   
+Opção 1: E-commerce tradicional  
 integrantes do grupo 7
 
 -Bernardo Miloski Pereira De Queiroz 
