@@ -9,9 +9,12 @@ integrantes do grupo 7
 -Samuel Romeu Forster Dornellas   
 
 # 1.Diagrama ER (primeira versão) 
+
 ![fd821179-126e-4ca8-b8e4-ebbbcd9ca866](https://github.com/samuelromeu/Banco-de-dados-grupo-7/assets/162327648/209e3f59-10e5-48bf-881d-c24710aede37)
 
 # 2.Diagrama ER (depois da normalização) 
+
+![f3abaeb6-23f9-4887-af80-dacfd1818324](https://github.com/samuelromeu/Banco-de-dados-grupo-7/assets/162327648/dd38408b-d7e9-4d07-ae86-aff90b7287a9)
 
 # 3. SQL de criação das tabelas 
 
