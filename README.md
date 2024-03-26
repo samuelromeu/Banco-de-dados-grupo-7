@@ -219,11 +219,11 @@ WHERE ID = 1
 
 # 6. Um comando SQL de exclusão de algum registro em uma tabela
 
-Deleta o nome de um dos funcionários   
+Deleta o número de telefone cadastrado por um cliente 
   
-SELECT * FROM funcionarios   
-DELETE FROM funcionarios WHERE  nome ='Deiby'  
-
+DELETE FROM telefones   
+	WHERE id ='1'   
+ 
 # 7. 5 SQLs de consulta 
  
 -A. Pelo menos 2 com algum tipo de junção    
