@@ -236,8 +236,17 @@ FROM
 produtos p    
 JOIN estoque e ON e.id_produto = p.id   
 
+Identifica o cliente e onde ele mora
+
+SELECT 
+	c.nome_completo AS "Nomes_clientes",
+	e.cidade AS "Cidades "
+FROM enderecos e
+	JOIN clientes c ON c.id = e.id_cliente 
+
 -B. Pelo menos 1 com usando count() e group by()   
 ------------------------------------  
+
 
 -C. 1 SQL para construção de nota fiscal
 ------------------------------------  
