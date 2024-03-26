@@ -2,11 +2,11 @@
 Trabalho final da disciplina Banco de Dados
 integrantes do grupo 7
 
--Bernardo Miloski Pereira De Queiroz-Samuel Romeu \**
--Deiby Wilhan dos Santos oliveira Teixeira \**
--Gustavo Dantas Senna Pinho \**
--Maycon Oliveira Corrêa Statzner \**
--Samuel Romeu Forster Dornellas \**
+-Bernardo Miloski Pereira De Queiroz-Samuel Romeu   
+-Deiby Wilhan dos Santos oliveira Teixeira   
+-Gustavo Dantas Senna Pinho   
+-Maycon Oliveira Corrêa Statzner   
+-Samuel Romeu Forster Dornellas   
 
 # 3. SQL de criação das tabelas 
 
