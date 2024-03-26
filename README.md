@@ -11,12 +11,12 @@ integrantes do grupo 7
 # 3. SQL de criação das tabelas 
 
 CREATE TABLE funcionarios (
-id SERIAL PRIMARY KEY,
-nome VARCHAR(150) NOT NULL,
-cpf VARCHAR(11) NOT NULL UNIQUE,
-ativo BOOL DEFAULT 'true',
-criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-atualizado_em TIMESTAMP 
+id SERIAL PRIMARY KEY, 
+nome VARCHAR(150) NOT NULL, 
+cpf VARCHAR(11) NOT NULL UNIQUE, 
+ativo BOOL DEFAULT 'true', 
+criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
+atualizado_em TIMESTAMP  
 )
 
 CREATE TABLE clientes (
