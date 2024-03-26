@@ -8,6 +8,9 @@ integrantes do grupo 7
 -Maycon Oliveira Corrêa Statzner   
 -Samuel Romeu Forster Dornellas   
 
+# 1.Diagrama ER (primeira versão) 
+![fd821179-126e-4ca8-b8e4-ebbbcd9ca866](https://github.com/samuelromeu/Banco-de-dados-grupo-7/assets/162327648/209e3f59-10e5-48bf-881d-c24710aede37)
+
 # 3. SQL de criação das tabelas 
 
 CREATE TABLE funcionarios (  
