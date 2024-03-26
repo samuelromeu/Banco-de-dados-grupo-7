@@ -2,7 +2,7 @@
 Trabalho final da disciplina Banco de Dados
 integrantes do grupo 7
 
--Bernardo Miloski Pereira De Queiroz-Samuel Romeu   
+-Bernardo Miloski Pereira De Queiroz 
 -Deiby Wilhan dos Santos oliveira Teixeira   
 -Gustavo Dantas Senna Pinho   
 -Maycon Oliveira Corrêa Statzner   
