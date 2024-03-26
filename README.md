@@ -247,6 +247,16 @@ FROM enderecos e
 -B. Pelo menos 1 com usando count() e group by()   
 ------------------------------------  
 
+Indentifica a quantidade de pedidos que cada cliente fez no e-commerce
+
+SELECT 
+	c.nome_completo AS "Nomes_clientes",
+	COUNT (p.id) AS "Numero_pedidos"
+FROM 
+	clientes c
+	JOIN pedidos p ON p.id_cliente = c.id
+GROUP BY
+	c.nome_completo
 
 -C. 1 SQL para construção de nota fiscal
 ------------------------------------  
